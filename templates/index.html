@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <title>KantineApp</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header>
+       <h1> Min kantineapp</h1>
+       <nav class="nav-menu">
+           <a href="/" class="nav-link ">Meny</a>
+           <a href="/info" class="nav-link">Info</a>
+       </nav>
+    </header>
+
+    <div class="container">
+        {% for item in meny %}
+            <div class="card">
+                <h2>{{ item.navn }}</h2>
+                <p>{{ item.beskrivelse }}</p>
+                <img src="{{ item.bilde_url }}" class="food-img">
+                <p>{{ item.pris }} kr</p>
+            </div>
+        {% endfor %}
+    </div>
+
+   
+
+<footer>
+    <h2> Laget at Patryk </h2>
+</footer>
+</body>
+</html>

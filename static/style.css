@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #d87a7a;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.card {
+    background: rgb(230, 92, 92);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    width: 150px;
+    text-align: center;
+    transition: transform 0.4s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+header {
+    background-color: #d67e55;
+    color: rgb(0, 0, 0);
+    padding: 20px 0;
+    text-align: center;
+    margin: 0;
+}
+
+footer {
+    background-color: #dd874d;
+    color: #333;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.food-img {
+    width: 100%;
+    height: 100px;
+    border-radius: 5px;
+    margin-top: 10px;
+    object-fit: cover;
+}
+
+.yoyoyo {
+    margin-left: 700px;
+    margin-top: 70px;
+}
+.yoyoyo {
+    color: blue;
+    font-size: 20px;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+  
+.Kantine_app {
+    max-width: 500px;
+    width: 90%;
+    height: auto;
+    border-radius: 12px;
+    position: relative;  
+    left: 500px;          
+    top: 120px;            
+}
+
